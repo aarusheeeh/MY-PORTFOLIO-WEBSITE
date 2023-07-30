@@ -1,0 +1,207 @@
+/* Basic CSS reset to remove default margins and paddings */
+body, h1, h2, h3, p, ul, li, form, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #ffffff; /* White text color for the entire page */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Ensure that the container fills the entire viewport */
+  background-color: #444444; /* Dark gray background color for the container */
+}
+
+header {
+  background-color: #333333; /* Slightly lighter gray background color for the header */
+  width: 100%;
+  padding: 1rem;
+}
+
+nav {
+  max-width: 1200px;
+  display: flex;
+  justify-content: center; /* Center-align the navigation horizontally */
+  align-items: center;
+}
+
+nav h1.logo {
+  font-size: 1.5rem;
+  margin-right: 2rem; /* Add some spacing between the name and the navigation buttons */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 1rem;
+}
+
+nav ul li button {
+  /* Style the navigation buttons here */
+  background-color: #400040; /* Purple color for the buttons */
+  color: #ffffff; /* White text color for the buttons */
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+nav ul li button:hover {
+  background-color: #400040; /* Darker purple color on hover */
+}
+
+main {
+  width: 100%;
+  max-width: 1200px;
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center; /* Center-align each section horizontally */
+  align-items: center;
+  flex-direction: column; /* Center-align the content inside each section vertically */
+}
+
+#hero {
+  background-image: url('hero-image.jpg'); /* Replace with your own hero image */
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  max-width: 600px;
+  text-align: center;
+}
+
+.cta-button {
+  /* Style the CTA button here */
+  background-color: #400040; /* Purple color for the CTA button */
+  color: #ffffff; /* White text color for the CTA button */
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #400040; /* Darker purple color on hover */
+}
+
+#about, #projects, #contact {
+  /* Add any section-specific styles here */
+  background-color: #444444; /* Slightly lighter gray background color for the sections */
+  padding: 2rem;
+}
+
+.about-content, .project-container, .contact-content {
+  max-width: 600px;
+  text-align: center;
+}
+
+.contact-content form {
+  display: flex;
+  flex-direction: column; /* Center-align form elements vertically */
+}
+
+.contact-content form .input-group {
+  margin-bottom: 1rem;
+  display: flex; /* Center-align form elements horizontally */
+  justify-content: center;
+}
+
+.contact-content form input,
+.contact-content form textarea,
+.contact-content form button {
+  padding: 0.5rem;
+}
+
+.contact-content form button {
+  /* Style the form button here */
+  background-color: #400040; /* Purple color for the form button */
+  color: #ffffff; /* White text color for the form button */
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-content form button:hover {
+  background-color: #400040; /* Darker purple color on hover */
+}
+
+footer {
+  background-color: #444444; /* Slightly lighter gray background color for the footer */
+  color: #ffffff; /* White text color for the footer */
+  text-align: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center-align project items vertically */
+}
+
+.project {
+  margin-bottom: 2rem;
+  max-width: 600px;
+  text-align: center; /* Center-align project content */
+}
+
+.project h3 {
+  margin-bottom: 0.5rem;
+}
+
+.project button {
+  /* Style the project buttons here */
+  background-color: #400040; /* Purple color for the project buttons */
+  color: #ffffff; /* White text color for the project buttons */
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.project button:hover {
+  background-color: #400040; /* Darker purple color on hover */
+}
+/* styles.css */
+/* Other styles here */
+
+.profile-image {
+  display: block;
+  margin: 0 auto; /* This centers the image horizontally */
+  width: 100px; /* Set the width to 300 pixels for passport size */
+  height: 100px; /* Set the height to 300 pixels for a square image */
+  border-radius: 50%; /* To make the image circular */
+  /* Add any other styling you need for the profile image */
+}
+/* Add this CSS rule to change the "Send Message" button color */
+#sendMessageBtn {
+  background-color: #0047AB;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
