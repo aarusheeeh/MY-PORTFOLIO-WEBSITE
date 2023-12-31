@@ -10,7 +10,8 @@ Welcome to my portfolio website! This repository contains the source code for my
 - [Usage](#usage)
 - [Customization](#customization)
 - [Contributing](#contributing)
-
+- [Project Look](#projectlook)
+  
 ## Introduction
 This portfolio website is designed to introduce myself, Aarushi Dubey, and highlight my academic background, skills, and passion for technology. It also includes sections for projects and a contact form.
 
@@ -38,7 +39,8 @@ Feel free to customize the content and styles to make it your own. Update the im
 Contributions are welcome! If you find any issues or have suggestions for improvements, please create an issue or submit a pull request.
 
 
-## Here's the project look
+## Project Look
+Here's the project llook
 https://drive.google.com/file/d/1EyPJVg6F83OYR5ZsskimnZT70ElFiBEB/view?usp=drivesdk
 
 
