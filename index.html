@@ -70,20 +70,36 @@
         <div class="about-img">
             <img src="images/about.png" alt="">
         </div>
-        <div class="about-content"><h2 class="heading">About <span>Me</span></h2>
-        <h3>Hi, I'm Here To Help Your Next Project!</h3>
-        <p>
-            Greetings! I'm Aarushi Dubey, a passionate second-year BTech student specializing in Artificial Intelligence and Machine Learning. 
-            My relentless drive to explore the forefront of technology fuels my ambition.<br>
-            I completed my HSC at the National Victor Public School in Delhi, where I honed my skills in Python programming. 
-            Beyond academics, I've mastered languages like C, C++, and Python, delving into MySQL and currently advancing my expertise in Data Structures and Algorithms (DSA).
-            <br>My approach to work is defined by a positive outlook and unwavering dedication, ensuring meticulous execution of every task. 
-            I'm propelled by a fervor for cutting-edge innovations in tech, actively keeping pace with the latest trends and advancements.
-            I'm committed to leveraging my experiences and expertise to make impactful contributions to the tech landscape. 
-            <br>With an unwavering dedication to continuous learning and growth, I bring valuable insights to the dynamic and ever-evolving tech industry.</p>
-            <a href="a" class="btn">Read More</a>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Hi, I'm Here To Help Your Next Project!</h3>
+            <div id="half-description">
+                <p>
+                    Greetings! I'm Aarushi Dubey, a passionate second-year BTech student specializing in Artificial Intelligence and Machine Learning. 
+                    My relentless drive to explore the forefront of technology fuels my ambition.<br>
+                    I completed my HSC at the National Victor Public School in Delhi, where I honed my skills in Python programming. 
+                    Beyond academics, I've mastered languages like C, C++, and Python, delving into MySQL and currently advancing my expertise in Data Structures and Algorithms (DSA)
+                </p>
+            </div>
+            <div id="full-description" style="display: none;">
+                <p>
+                    My approach to work is defined by a positive outlook and unwavering dedication, ensuring meticulous execution of every task. 
+                    I'm propelled by a fervor for cutting-edge innovations in tech, actively keeping pace with the latest trends and advancements.
+                    I'm committed to leveraging my experiences and expertise to make impactful contributions to the tech landscape. 
+                    With an unwavering dedication to continuous learning and growth, I bring valuable insights to the dynamic and ever-evolving tech industry.
+                </p>
+            </div>
+            <a href="#" id="read-more-btn" class="btn">Read More</a>
         </div>
     </section>
+    <script>
+        document.getElementById("read-more-btn").addEventListener("click", function() {
+            document.getElementById("half-description").style.display = "none";
+            document.getElementById("full-description").style.display = "block";
+            this.style.display = "none"; // Hide the "Read More" button after clicking
+        });
+    </script>
+
     <!-- porject section design -->
     <section class="portfolio" id="portfolio">
         <h2 class="heading">Latest <span>Projects</span></h2>
