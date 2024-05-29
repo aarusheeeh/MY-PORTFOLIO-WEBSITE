@@ -23,6 +23,9 @@ window.onscroll = () => {
 /*========== dark light mode ==========*/
 let darkModeIcon = document.querySelector('#darkMode-icon');
 
+// Set default mode to dark
+document.body.classList.add('dark-mode');
+darkModeIcon.classList.add('bx-sun');
 
 darkModeIcon.onclick = () => {
     darkModeIcon.classList.toggle('bx-sun');
